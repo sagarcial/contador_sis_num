@@ -7,6 +7,3 @@ class Hexadecimal(Contador):
         for i in range(tope + 1):
             print(hex(i)[2:])
 
-if __name__ == "__main__":
-    count = Hexadecimal()
-    count.avanzar_hexadecimal(100)

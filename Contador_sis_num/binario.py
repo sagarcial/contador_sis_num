@@ -9,7 +9,3 @@ class Binario(Contador):
         for i in range(tope + 1):
             print(bin(i)[2:])
 
-
-if __name__ == "__main__":
-    count = Binario()
-    count.avanzar_binario(10)

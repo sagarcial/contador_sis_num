@@ -10,6 +10,3 @@ class Decimal(Contador):
             print(self.valor)
 
     
-if __name__ == "__main__":
-    count = Decimal()
-    count.avanzar(3)

@@ -7,8 +7,3 @@ class Octal(Contador):
         for i in range(tope + 1):
             print(oct(i)[2:])
 
-
-if __name__ == "__main__":
-    count = Octal()
-    count.avanzar_octal(10)
-
